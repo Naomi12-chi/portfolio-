@@ -1,337 +1,297 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Naomi Omoba | Front-End Developer</title>
-
-<style>
-
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-font-family:Arial, Helvetica, sans-serif;
-}
-
-body{
-background:#f4f6fb;
-color:#333;
-line-height:1.6;
-}
-
-header{
-background:#111;
-color:white;
-padding:18px 50px;
-position:fixed;
-width:100%;
-top:0;
-z-index:1000;
-}
-
-nav{
-display:flex;
-justify-content:space-between;
-align-items:center;
-}
-
-.logo{
-font-size:20px;
-font-weight:bold;
-}
-
-nav ul{
-display:flex;
-list-style:none;
-}
-
-nav ul li{
-margin-left:20px;
-}
-
-nav ul li a{
-color:white;
-text-decoration:none;
-font-size:14px;
-}
-
-.hero{
-height:100vh;
-display:flex;
-flex-direction:column;
-justify-content:center;
-align-items:center;
-text-align:center;
-background:linear-gradient(135deg,#4facfe,#00f2fe);
-color:white;
-padding:20px;
-}
-
-.hero h1{
-font-size:48px;
-margin-bottom:10px;
-}
-
-.hero p{
-font-size:18px;
-max-width:600px;
-}
-
-section{
-padding:90px 30px;
-text-align:center;
-}
-
-h2{
-font-size:30px;
-margin-bottom:20px;
-}
-
-.about p{
-max-width:700px;
-margin:auto;
-}
-
-.skills{
-display:flex;
-flex-wrap:wrap;
-justify-content:center;
-gap:15px;
-margin-top:25px;
-}
-
-.skill{
-background:#111;
-color:white;
-padding:10px 20px;
-border-radius:5px;
-font-size:14px;
-}
-
-.projects{
-display:flex;
-flex-wrap:wrap;
-justify-content:center;
-gap:25px;
-margin-top:40px;
-}
-
-.project{
-background:white;
-width:300px;
-border-radius:8px;
-box-shadow:0 5px 15px rgba(0,0,0,0.1);
-overflow:hidden;
-}
-
-.project img{
-width:100%;
-height:180px;
-object-fit:cover;
-}
-
-.project-content{
-padding:20px;
-}
-
-.project h3{
-margin-bottom:10px;
-}
-
-.contact p{
-margin-top:10px;
-}
-
-footer{
-background:#111;
-color:white;
-padding:20px;
-text-align:center;
-}
-
-/* Mobile */
-
-@media(max-width:768px){
-
-nav{
-flex-direction:column;
-}
-
-.hero h1{
-font-size:34px;
-}
-
-.projects{
-flex-direction:column;
-align-items:center;
-}
-
-}
-
-</style>
-
-</head>
-
-<body>
-
-<header>
-
-<nav>
-
-<div class="logo">Naomi</div>
-
-<ul>
-<li><a href="#about">About</a></li>
-<li><a href="#skills">Skills</a></li>
-<li><a href="#projects">Projects</a></li>
-<li><a href="#contact">Contact</a></li>
-</ul>
-
-</nav>
-
-</header>
-
-
-<section class="hero">
-
-<h1>Naomi Omoba</h1>
-
-<p>
-Front-End Developer and UI/UX Designer focused on building responsive,
-modern, and user-friendly websites for businesses and personal brands.
-</p>
-
-</section>
-
-
-<section id="about" class="about">
-
-<h2>About Me</h2>
-
-<p>
-I am a front-end developer passionate about creating clean and engaging
-digital experiences. My work focuses on responsive web design,
-modern interfaces, and intuitive user experiences. I enjoy turning
-ideas into functional websites that work smoothly across desktop,
-tablet, and mobile devices.
-</p>
-
-</section>
-
-
-<section id="skills">
-
-<h2>Skills</h2>
-
-<div class="skills">
-
-<div class="skill">HTML</div>
-<div class="skill">CSS</div>
-<div class="skill">JavaScript</div>
-<div class="skill">Responsive Web Design</div>
-<div class="skill">UI / UX Design</div>
-<div class="skill">Figma</div>
-<div class="skill">Graphic Design</div>
-
-</div>
-
-</section>
-
-
-<section id="projects">
-
-<h2>Selected Projects</h2>
-
-<div class="projects">
-
-
-<div class="project">
-
-<img src="https://images.unsplash.com/photo-1559028012-481c04fa702d?auto=format&fit=crop&w=800&q=60">
-
-<div class="project-content">
-
-<h3>Startup Landing Page</h3>
-
-<p>
-A responsive landing page designed for a fictional tech startup
-featuring product sections, testimonials, and strong call-to-action
-elements for customer engagement.
-</p>
-
-</div>
-
-</div>
-
-
-<div class="project">
-
-<img src="https://images.unsplash.com/photo-1607082350899-7e105aa886ae?auto=format&fit=crop&w=800&q=60">
-
-<div class="project-content">
-
-<h3>E-Commerce Website UI</h3>
-
-<p>
-A clean e-commerce interface with product cards, category sections,
-and a mobile-friendly layout designed to improve online shopping
-experiences.
-</p>
-
-</div>
-
-</div>
-
-
-<div class="project">
-
-<img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&q=60">
-
-<div class="project-content">
-
-<h3>Personal Portfolio Website</h3>
-
-<p>
-A modern portfolio website built to showcase projects, technical
-skills, and design work with a minimal and user-friendly interface.
-</p>
-
-</div>
-
-</div>
-
-
-</div>
-
-</section>
-
-
-<section id="contact" class="contact">
-
-<h2>Contact</h2>
-
-<p>Email: omobachinemerem@gmail.com</p>
-
-<p>
-LinkedIn:
-<a href="https://www.linkedin.com/in/naomi-chinemerem-4118793b6?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank">
-View Profile
-</a>
-</p>
-
-<p>Lagos, Nigeria</p>
-
-</section>
-
-
-<footer>
-
-<p>© 2026 Naomi Omoba</p>
-
-</footer>
-
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Naomi Chinemerem | Front-End Developer</title>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      body {
+        background: #f4f6fb;
+        color: #333;
+        line-height: 1.6;
+      }
+
+      header {
+        background: #111;
+        color: white;
+        padding: 18px 50px;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        z-index: 1000;
+      }
+
+      nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .logo {
+        font-size: 20px;
+        font-weight: bold;
+      }
+
+      nav ul {
+        display: flex;
+        list-style: none;
+      }
+
+      nav ul li {
+        margin-left: 20px;
+      }
+
+      nav ul li a {
+        color: white;
+        text-decoration: none;
+        font-size: 14px;
+      }
+
+      .hero {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background: linear-gradient(135deg, #4facfe, #00f2fe);
+        color: white;
+        padding: 20px;
+      }
+
+      .hero h1 {
+        font-size: 48px;
+        margin-bottom: 10px;
+      }
+
+      .hero p {
+        font-size: 18px;
+        max-width: 600px;
+      }
+
+      section {
+        padding: 90px 30px;
+        text-align: center;
+      }
+
+      h2 {
+        font-size: 30px;
+        margin-bottom: 20px;
+      }
+
+      .about p {
+        max-width: 700px;
+        margin: auto;
+      }
+
+      .skills {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+        margin-top: 25px;
+      }
+
+      .skill {
+        background: #111;
+        color: white;
+        padding: 10px 20px;
+        border-radius: 5px;
+        font-size: 14px;
+      }
+
+      .projects {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 25px;
+        margin-top: 40px;
+      }
+
+      .project {
+        background: white;
+        width: 300px;
+        border-radius: 8px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+      }
+
+      .project img {
+        width: 100%;
+        height: 180px;
+        object-fit: cover;
+      }
+
+      .project-content {
+        padding: 20px;
+      }
+
+      .project h3 {
+        margin-bottom: 10px;
+      }
+
+      .contact p {
+        margin-top: 10px;
+      }
+
+      footer {
+        background: #111;
+        color: white;
+        padding: 20px;
+        text-align: center;
+      }
+
+      /* Mobile */
+
+      @media (max-width: 768px) {
+        nav {
+          flex-direction: column;
+        }
+
+        .hero h1 {
+          font-size: 34px;
+        }
+
+        .projects {
+          flex-direction: column;
+          align-items: center;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <div class="logo">Naomi</div>
+
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <h1>Naomi Chinemerem</h1>
+
+      <p>
+        Front-End Developer and UI/UX Designer focused on building responsive,
+        modern, and user-friendly websites for businesses and personal brands.
+      </p>
+    </section>
+
+    <section id="about" class="about">
+      <h2>About Me</h2>
+
+      <p>
+        I am a front-end developer passionate about creating clean and engaging
+        digital experiences. My work focuses on responsive web design, modern
+        interfaces, and intuitive user experiences. I enjoy turning ideas into
+        functional websites that work smoothly across desktop, tablet, and
+        mobile devices.
+      </p>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+
+      <div class="skills">
+        <div class="skill">HTML</div>
+        <div class="skill">CSS</div>
+        <div class="skill">JavaScript</div>
+        <div class="skill">Responsive Web Design</div>
+        <div class="skill">UI / UX Design</div>
+        <div class="skill">Figma</div>
+        <div class="skill">Graphic Design</div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>Selected Projects</h2>
+
+      <div class="projects">
+        <div class="project">
+          <img
+            src="https://images.unsplash.com/photo-1559028012-481c04fa702d?auto=format&fit=crop&w=800&q=60"
+          />
+
+          <div class="project-content">
+            <h3>Startup Landing Page</h3>
+
+            <p>
+              A responsive landing page designed for a fictional tech startup
+              featuring product sections, testimonials, and strong
+              call-to-action elements for customer engagement.
+            </p>
+          </div>
+        </div>
+
+        <div class="project">
+          <img
+            src="https://images.unsplash.com/photo-1607082350899-7e105aa886ae?auto=format&fit=crop&w=800&q=60"
+          />
+
+          <div class="project-content">
+            <h3>E-Commerce Website UI</h3>
+
+            <p>
+              A clean e-commerce interface with product cards, category
+              sections, and a mobile-friendly layout designed to improve online
+              shopping experiences.
+            </p>
+          </div>
+        </div>
+
+        <div class="project">
+          <img
+            src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&q=60"
+          />
+
+          <div class="project-content">
+            <h3>Personal Portfolio Website</h3>
+
+            <p>
+              A modern portfolio website built to showcase projects, technical
+              skills, and design work with a minimal and user-friendly
+              interface.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>Contact</h2>
+
+      <p>Email: omobachinemerem@gmail.com</p>
+
+      <p>
+        LinkedIn:
+        <a
+          href="https://www.linkedin.com/in/naomi-chinemerem-4118793b6?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+          target="_blank"
+        >
+          View Profile
+        </a>
+      </p>
+
+      <p>Lagos, Nigeria</p>
+    </section>
+
+    <footer>
+      <p>© 2026 Naomi Chinemerem</p>
+    </footer>
+  </body>
 </html>
